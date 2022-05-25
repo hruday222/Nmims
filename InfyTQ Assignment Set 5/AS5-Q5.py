@@ -11,9 +11,7 @@
 # 3. sort_marks(): Sort the marks in the increasing order from 0 to 25. The sorted values should 
 # be populated in a list and returned.
 
-#lex_auth_01269438947391897654
 
-#Global variable
 list_of_marks=(12,18,25,24,2,5,18,20,20,21)
 
 def find_more_than_average():
@@ -34,11 +32,8 @@ def generate_frequency():
             if j == i:
                 stu_count += 1
         freq_list.append(stu_count)
-        stu_count = 0
-                
-    
+        stu_count = 0  
     return freq_list
-            
 
 def sort_marks():
     sorted_list = sorted(list_of_marks)
